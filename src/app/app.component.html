@@ -1,0 +1,32 @@
+<div class="calculator">
+  <table border="1px">
+    <tr>
+      <td colspan="4" style="text-align: end;">{{expression}}</td>
+    </tr>
+    <tr>
+      <td (click) ="calc('1')">1</td>
+      <td (click) ="calc('2')">2</td>
+      <td (click) ="calc('3')">3</td>
+      <td (click) ="calc('+')">+</td>
+    </tr>
+    <tr>
+      <td (click) ="calc('4')">4</td>
+      <td (click) ="calc('5')">5</td>
+      <td (click) ="calc('6')">6</td>
+      <td (click) ="calc('-')">-</td>
+    </tr>
+    <tr>
+      <td (click) ="calc('7')">7</td>
+      <td (click) ="calc('8')">8</td>
+      <td (click) ="calc('9')">9</td>
+      <td (click) ="calc('*')">*</td>
+    </tr>
+    <tr>
+      <td (click) ="clear()">C</td>
+      <td (click) ="calc('0')">0</td>
+      <td (click) ="calculate()">=</td>
+      <td (click) ="calc('/')">/</td>
+    </tr>
+
+  </table>
+</div>

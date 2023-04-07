@@ -1,0 +1,28 @@
+.calculator {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top,red ,pink);
+}
+table {
+  border-spacing: 10px;
+  background-color: aqua;
+}
+table td{
+  font-size: large;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border: .5px;
+  transition-duration: .2s;
+  transition-property: position box-shadow top left;
+ }
+table td:hover {
+  position: relative;
+  top: 2px;
+  left: 2px;
+  box-shadow: 1px 1px 10px 5px #888888;
+}
